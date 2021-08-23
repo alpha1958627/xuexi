@@ -2,7 +2,7 @@
 
 int main() {
 	int cnt;
-	scanf("%d%*c",&cnt);
+	scanf("%d%*c",&cnt);\\忽略回车（第二个字符）
 	int wina[5]= {0},winb[5]= {0},wa=0,wb=0,equ=0,max;
 	char maxa='B',maxb='B';
 	while(cnt--) {
