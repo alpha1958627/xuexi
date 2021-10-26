@@ -15,7 +15,7 @@ int aishi(int n) {
 	}
 	for(int i=2; i<n; i++) {
 		if(is_prime[i]==1) {
-			prime[cnt++1]=i;
+			prime[cnt++]=i;
 			for(int j=2*i; j<=n; j+=i) {
 				is_prime[j]=0;
 			}
